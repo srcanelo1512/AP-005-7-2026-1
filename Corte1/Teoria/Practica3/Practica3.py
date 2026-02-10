@@ -10,9 +10,8 @@ while True:
     else:
         print("el numero es impar: ")
 
-    b = input("si desea continuar con otro numero digite 1 sino 0: ")
-   
-    bint=int(b)
+    b = input("si desea salir del programa digite E sino cualquier otra tecla: ")
 
-    if (bint == 0):
+    if (b == "e"):
+        print("gracias por utilizar el programa ")
         break
