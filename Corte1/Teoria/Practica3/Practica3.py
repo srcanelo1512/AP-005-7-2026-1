@@ -6,12 +6,12 @@ while True:
     mod = aint%2
 
     if (mod == 0):
-        print("el numero es par: ")
+        print("el numero es PAR ")
     else:
-        print("el numero es impar: ")
+        print("el numero es IMPAR ")
 
     b = input("si desea salir del programa digite E sino cualquier otra tecla: ")
 
-    if (b == "e"):
+    if (b == "E"):
         print("gracias por utilizar el programa ")
         break
